@@ -7,17 +7,37 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
+    "@quasar/extras": "^1.0.0",
+    "bootstrap": "^5.2.3",
+    "bootstrap-vue": "^2.23.1",
     "core-js": "^3.8.3",
-    "vue": "^3.2.13",
+    "html2pdf.js": "0.9.0",
+    "jquery": "^3.6.4",
+    "jspdf": "^2.5.1",
+    "jwt-decode": "^3.1.2",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "quasar": "^2.0.0",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-vue": "^0.11.0",
+    "vue": "^3.2.47",
+    "vue-basic-alert": "^1.1.0",
+    "vue-plugin-load-script": "^2.1.1",
     "vue-router": "^4.0.3",
-    "vuex": "^4.0.0"
+    "vue-sweetalert2": "^5.0.5",
+    "vuejs-semantic-ui": "^0.0.18",
+    "vuesax": "^3.12.2",
+    "vuex": "^4.0.0",
+    "yup": "0.31.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-router": "~5.0.0",
     "@vue/cli-plugin-vuex": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
-    "sass": "^1.32.7",
-    "sass-loader": "^12.0.0"
+    "sass": "1.32.12",
+    "sass-loader": "^12.0.0",
+    "vue-cli-plugin-quasar": "~5.0.2"
   }
 }
