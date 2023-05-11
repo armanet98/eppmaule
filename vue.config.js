@@ -1,4 +1,9 @@
 const { defineConfig } = require('@vue/cli-service')
+module.exports = {
+  devServer: {
+    disableHostCheck: true
+  }
+}
 module.exports = defineConfig({
   transpileDependencies: [
     'quasar'
